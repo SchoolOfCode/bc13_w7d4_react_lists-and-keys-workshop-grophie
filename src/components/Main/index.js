@@ -12,13 +12,17 @@ function Main() {
 
 {samplePosts.map((post) => {
  console.log(`this is out mapping function ${post.author}`);
-  return (<Post postId = {post.postId}
+  return (<Post key = {post.postId}
   title = {post.title}
   date = {post.date}
   author = {post.author}
   text = {post.text}
   highlights = {post.highlights}
-  image = {post.image}
+
+
+  imgalt = {post.image.alt}
+  imglink = {post.image.link}
+
   />)
 })}
 
