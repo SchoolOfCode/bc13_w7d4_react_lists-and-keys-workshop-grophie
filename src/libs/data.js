@@ -91,7 +91,7 @@ const samplePosts = [
     ],
     image: {
       link:
-        'https://image.freepik.com/free-photo/pidgeon-waters-edge_19485-37038.jpg',
+        'https://preview.redd.it/y1k4r2r5smx41.jpg?width=640&crop=smart&auto=webp&s=d59fe46a3c7407bdb862080327700f088ee0cf3d',
       alt:
         'A pigeon with a spectacular green plumage stares thoughtfully into the distance.',
     },
