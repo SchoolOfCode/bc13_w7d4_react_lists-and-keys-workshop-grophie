@@ -4,9 +4,9 @@ import './index.css';
 
 function Post(props) {
   return <article>
-  <h2>Title: {props.title}</h2> 
-  <h3>Date: {props.date}</h3>
-  <h3>Author: {props.author}</h3>
+  <h2>{props.title}</h2> 
+  <h3>{props.date}</h3>
+  <h3>{props.author}</h3>
   <p>{props.text}</p>
  
     {(props.highlights).map((highlight, index) =>

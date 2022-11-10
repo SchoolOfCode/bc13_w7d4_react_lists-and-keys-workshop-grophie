@@ -20,8 +20,6 @@ function Main() {
   highlights = {post.highlights}
   imgalt = {post.image.alt}
   imglink = {post.image.link}
-
-
   />)
 })}
 
