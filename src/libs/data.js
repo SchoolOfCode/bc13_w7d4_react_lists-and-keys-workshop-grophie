@@ -77,6 +77,25 @@ const samplePosts = [
         'A pigeon with a spectacular green plumage stares thoughtfully into the distance.',
     },
   },
+
+  {
+    postId: 4,
+    title: 'A Less Lovely Pidgeon',
+    date: '16/05/22',
+    author: 'Sophie Thornton',
+    text: lorem.generateParagraphs(7),
+    highlights: [
+      lorem.generateWords(3),
+      lorem.generateWords(3),
+      lorem.generateWords(3),
+    ],
+    image: {
+      link:
+        'https://preview.redd.it/y1k4r2r5smx41.jpg?width=640&crop=smart&auto=webp&s=d59fe46a3c7407bdb862080327700f088ee0cf3d',
+      alt:
+        'A pigeon with a spectacular green plumage stares thoughtfully into the distance.',
+    },
+  },
 ];
 
 export default samplePosts;
