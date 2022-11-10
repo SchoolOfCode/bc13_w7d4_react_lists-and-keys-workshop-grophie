@@ -8,7 +8,11 @@ function Post(props) {
   <h3>Date: {props.date}</h3>
   <h3>Author: {props.author}</h3>
   <p>{props.text}</p>
-  <p style={{color: 'white'}}>{props.highlights}</p>
+ 
+    {(props.highlights).map((highlight, index) =>
+     <li key = {index}>{highlight}</li>
+     )}
+
   <img alt={props.imgalt} width={'80%'} src = {props.imglink}/>
   </article>;
 }

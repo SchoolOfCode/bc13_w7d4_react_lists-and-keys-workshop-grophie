@@ -18,15 +18,15 @@ function Main() {
   author = {post.author}
   text = {post.text}
   highlights = {post.highlights}
-
-
   imgalt = {post.image.alt}
   imglink = {post.image.link}
+
 
   />)
 })}
 
 </main>
 }
+
 
 export default Main;
